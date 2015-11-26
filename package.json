@@ -1,0 +1,26 @@
+{
+  "name": "gulp-yuidoc-filter-tags",
+  "version": "0.1.0",
+  "description": "Gulp plugin for yuidoc that makes it possible to filter out parts of the documentation.",
+  "keywords" : [
+    "gulp",
+    "gulpplugin",
+    "yuidoc",
+    "documentation",
+    "filter",
+    "javascript"
+  ],
+  "main": "./index.js",
+  "author": "orrsiloni",
+  "license": "ISC",
+  "homepage": "https://github.com/orrsiloni/gulp-yuidoc-filter-tags",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orrsiloni/gulp-yuidoc-filter-tags.git"
+  },
+  "dependencies": {
+    "through2": "^2.0.0"
+  },
+  "private" : false
+}
