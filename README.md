@@ -34,7 +34,7 @@ gulp.src("./src/*.js")
 // include only comments with 'onlythis' or 'onlythat' tags
 gulp.src("./src/*.js")
     .pipe( yuidoc.parser() )
-    .pipe( yuidocFilterTags({ exclude : ['onlythis', 'onlythat'] }) )
+    .pipe( yuidocFilterTags({ include : ['onlythis', 'onlythat'] }) )
     .pipe( yuidoc.generator() )
     .pipe( gulp.dest('./docs') );
 ```
