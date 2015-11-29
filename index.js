@@ -62,6 +62,9 @@ function YUIDocFilterTags(options) {
         if (options.exclude)
             console.log("Excluding items with the tags: " + [].concat(options.exclude));
 
+        if (options.custom)
+            console.log("Adding custom tags: " + [].concat(options.exclude));
+
         var allTags = [];
 
         if (options.include)
@@ -69,6 +72,9 @@ function YUIDocFilterTags(options) {
 
         if (options.exclude)
             allTags = allTags.concat(options.exclude);
+
+        if (options.custom)
+            allTags = allTags.concat(options.custom);
 
         var acceptedWarnings = [];
 
